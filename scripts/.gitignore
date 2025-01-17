@@ -1,0 +1,9 @@
+// CSV output files
+*.csv
+
+
+// JSON
+*.json
+
+//.ENV
+.env

@@ -1,0 +1,63 @@
+---
+- name: Deploy Nginx Reverse Proxy
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Create Nginx configuration file
+      copy:
+        dest: /etc/nginx/sites-available/reverse-proxy.conf
+        content: |
+          upstream local_server {
+              server 127.0.0.1:80 max_fails=3 fail_timeout=30s;
+          }
+
+          server {
+              listen 80;
+              server_name *.gcpapp.net;
+
+              location / {
+                  proxy_pass http://local_server;
+                  proxy_set_header Host $host;
+                  proxy_set_header X-Real-IP $remote_addr;
+                  proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                  proxy_set_header X-Forwarded-Proto $scheme;
+
+                  # Failover to external server if local server is down
+                  proxy_next_upstream error timeout http_502 http_503 http_504;
+                  resolver 8.8.8.8;  # Use Google's DNS resolver
+                  set $external_url http://$host$request_uri;
+                  proxy_pass $external_url;
+              }
+          }
+
+    - name: Enable Nginx site
+      file:
+        src: /etc/nginx/sites-available/reverse-proxy.conf
+        dest: /etc/nginx/sites-enabled/reverse-proxy.conf
+        state: link
+
+    - name: Remove default Nginx site
+      file:
+        path: /etc/nginx/sites-enabled/default
+        state: absent
+
+    - name: Test Nginx configuration
+      command: nginx -t
+      register: nginx_test
+      ignore_errors: yes
+
+    - name: Fail if Nginx configuration test failed
+      fail:
+        msg: "Nginx configuration test failed"
+      when: nginx_test.rc != 0
+
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
