@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="4ARpTzNdhLFGgtW9GgOX">
-    <mxGraphModel>
+    <mxGraphModel dx="1632" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5kFhr63On37pDTz6j-MV-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="140" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="1400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-3" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="22.5" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-4" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-size: 14px; white-space: pre-wrap;&quot;&gt;AIFM&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="21" width="160" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.goldingcapital.com/themes/master_theme/logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="56.43" y="30" width="103.57" height="14.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-10" value="AIFM Reports" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="1230" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-12" value="Add AIFM Report" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="775" y="460" width="135" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-13" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.checkbox;fillColor=#008465;strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="469" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-14" value="A report contains all AIFM reportings for each legal entity in a time period." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="702.5" y="420" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-15" value="Create your first AIFM Report" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="710" y="390" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="80" width="140" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="10" width="1400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-51" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2970" y="22.5" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-52" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: bold; font-size: 14px; white-space: pre-wrap;&quot;&gt;AIFM&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="21" width="160" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-53" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.goldingcapital.com/themes/master_theme/logo.svg;" vertex="1" parent="1">
+          <mxGeometry x="1646.43" y="30" width="103.57" height="14.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-54" value="AIFM Reports" style="rounded=1;fillColor=#0057D8;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;align=center;verticalAlign=middle;fontStyle=0;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="90" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="200" width="1230" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-56" value="Add AIFM Report" style="rounded=1;fillColor=#0057D8;align=center;strokeColor=none;html=1;whiteSpace=wrap;fontColor=#ffffff;fontSize=12;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="2365" y="460" width="135" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-57" value="" style="html=1;shadow=0;dashed=0;shape=mxgraph.atlassian.checkbox;fillColor=#008465;strokeColor=none;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="469" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-58" value="A report contains all AIFM reportings for each legal entity in a time period." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2292.5" y="420" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-59" value="Create your first AIFM Report" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="390" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="800" width="800" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5kFhr63On37pDTz6j-MV-62" value="Add Aifm Report" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="810" width="280" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
